@@ -1,0 +1,35 @@
+server:
+  name: user-edge-service
+  port: 8082
+
+# 与其他微服务通过thrift传输数据的接口信息配置
+thrift:
+  user:
+    ip: 127.0.0.1
+    port: 7911
+  message:
+    ip: 127.0.0.1
+    port: 9090
+
+
+
+# redis 相关配置文件
+spring:
+  application:
+    name: spring-boot-redis
+  jpa:
+    database: mysql
+    show-sql: true
+  datasource:
+    druid:
+      username: root
+      password: 123456
+      url: jdbc:mysql://localhost:3306/test
+  redis:
+    password:
+
+# 其他配置
+md5:
+  salt: wwlnb
+
+charsetName: utf-8
