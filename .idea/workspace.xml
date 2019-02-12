@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41053fd3-1db2-462e-9db7-b883b5ab8fae" name="Default Changelist" comment="" />
+    <list default="true" id="41053fd3-1db2-462e-9db7-b883b5ab8fae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/thrift/gen-code.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/thrift/message.thrift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/thrift/gen-code.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/thrift/message.thrift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/message-thrift-service-api/target/" />
@@ -28,10 +36,13 @@
     <session id="-1209391912">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
@@ -42,7 +53,7 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -50,24 +61,24 @@
           <entry key="cfg" value="1" />
           <entry key="dummy" value="10" />
           <entry key="java" value="5287" />
-          <entry key="md" value="101" />
+          <entry key="md" value="112" />
           <entry key="properties" value="522" />
           <entry key="py" value="1805" />
-          <entry key="sh" value="145" />
-          <entry key="thrift" value="434" />
+          <entry key="sh" value="146" />
+          <entry key="thrift" value="529" />
           <entry key="xml" value="588" />
           <entry key="yml" value="318" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="145" />
+          <entry key="Bash" value="146" />
           <entry key="JAVA" value="5287" />
-          <entry key="Markdown" value="101" />
+          <entry key="Markdown" value="112" />
           <entry key="PLAIN_TEXT" value="86" />
           <entry key="Properties" value="522" />
           <entry key="Python" value="1805" />
-          <entry key="Thrift" value="359" />
+          <entry key="Thrift" value="454" />
           <entry key="XML" value="588" />
           <entry key="YAML" value="318" />
         </counts>
@@ -77,28 +88,32 @@
           <entry key="MessageService-remote" value="3" />
           <entry key="cfg" value="1" />
           <entry key="class" value="16" />
-          <entry key="iml" value="4" />
-          <entry key="java" value="119" />
-          <entry key="properties" value="6" />
+          <entry key="iml" value="5" />
+          <entry key="java" value="124" />
+          <entry key="md" value="1" />
+          <entry key="png" value="1" />
+          <entry key="properties" value="7" />
           <entry key="py" value="19" />
-          <entry key="sh" value="7" />
-          <entry key="thrift" value="11" />
-          <entry key="xml" value="37" />
-          <entry key="yml" value="16" />
+          <entry key="sh" value="8" />
+          <entry key="thrift" value="14" />
+          <entry key="xml" value="43" />
+          <entry key="yml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="7" />
+          <entry key="Bash" value="8" />
           <entry key="CLASS" value="16" />
-          <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="119" />
+          <entry key="IDEA_MODULE" value="5" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="124" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Properties" value="6" />
+          <entry key="Properties" value="7" />
           <entry key="Python" value="22" />
-          <entry key="Thrift" value="7" />
-          <entry key="XML" value="37" />
-          <entry key="YAML" value="16" />
+          <entry key="Thrift" value="10" />
+          <entry key="XML" value="43" />
+          <entry key="YAML" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -107,7 +122,87 @@
     <favorites_list name="microservice" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/message-thrift-service-api/src/main/java/com/imooc/thrift/message/MessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thriftfile/message.thrift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/message-thrift-service-api/message-thrift-service-api.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/java/com/imooc/user/ServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/ServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-thrift-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,10 +228,12 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/message-thrift-python-service/thrift/test.sh" />
         <option value="$PROJECT_DIR$/message-thrift-python-service/thrift/gencode.sh" />
         <option value="$PROJECT_DIR$/message-thrift-python-service/thrift/message.thrift" />
@@ -146,9 +243,7 @@
         <option value="$PROJECT_DIR$/message-thrift-python-service/meaasge/message_service.py" />
         <option value="$PROJECT_DIR$/message-thrift-python-service/message/message_service.py" />
         <option value="$PROJECT_DIR$/message-thrift-service-api/src/main/java/com/imooc/thrift/message/MessageService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/message-thrift-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/message-thrift-python-service/thrift/gen-code.sh" />
         <option value="$PROJECT_DIR$/message-thrift-service-api/src/thrift/gen-code.sh" />
         <option value="$PROJECT_DIR$/user-thrift-service-api/thrift/user_service.thrift" />
         <option value="$PROJECT_DIR$/user-thrift-service-api/thrift/gen-code.sh" />
@@ -185,6 +280,10 @@
         <option value="$PROJECT_DIR$/test-mongo/pom.xml" />
         <option value="$PROJECT_DIR$/test-mongo/src/main/java/com/mooc/mongo/dao/userDao.java" />
         <option value="C:/Program Files/MongoDB/Server/4.0/bin/mongod.cfg" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/message-thrift-python-service/thrift/gen-code.sh" />
+        <option value="$PROJECT_DIR$/thriftfile/message.thrift" />
       </list>
     </option>
   </component>
@@ -194,11 +293,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
     <option name="width" value="2425" />
-    <option name="height" value="1314" />
+    <option name="height" value="1315" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -262,6 +361,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -273,6 +375,21 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="message-thrift-python-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="message-thrift-service-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="thriftfile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,21 +406,17 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541928835778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549978002654" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 2.7 (microservice)" />
-    <property name="last_opened_file_path" value="D:/software/thrift-0.11.0/lib/py" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\microservice\test-mongo\src\main\resources" />
-      <recent name="C:\Users\Administrator\IdeaProjects\microservice\user-thrift-service-api\src\main\java\om\imooc\thrift\user" />
-      <recent name="C:\Users\Administrator\IdeaProjects\microservice\user-thrift-service-api\src\main\java" />
-      <recent name="C:\Users\Administrator\IdeaProjects\microservice\user-thrift-service-api" />
-      <recent name="C:\Users\Administrator\IdeaProjects\microservice\message-thrift-service-api" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\microservice\user-thrift-service-api\thrift" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -311,8 +424,12 @@
       <recent name="com.imooc.user.service" />
       <recent name="com.imooc.user.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\microservice\user-thrift-service-api\thrift" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\microservice\thriftFile" />
+      <recent name="C:\Users\Administrator\IdeaProjects\microservice\test-mongo\src\main\resources" />
+      <recent name="C:\Users\Administrator\IdeaProjects\microservice\user-thrift-service-api\src\main\java\om\imooc\thrift\user" />
+      <recent name="C:\Users\Administrator\IdeaProjects\microservice\user-thrift-service-api\src\main\java" />
+      <recent name="C:\Users\Administrator\IdeaProjects\microservice\user-thrift-service-api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,14 +444,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.user-edge">
+  <component name="RunManager" selected="Bash.gen-code.sh (2)">
     <configuration name="gen-code.sh (2)" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="user-thrift-service-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="C:\Windows\system32\bash.exe" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\Administrator\IdeaProjects\microservice\user-thrift-service-api\thrift" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Administrator\IdeaProjects\microservice\message-thrift-python-service\thrift" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="gen-code.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gen-code.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="message-thrift-python-service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="C:\Windows\system32\bash.exe" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Administrator\IdeaProjects\microservice\message-thrift-python-service\thrift" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\IdeaProjects\microservice\message-thrift-python-service\thrift\gen-code.sh" />
       <option name="PARAMETERS" value="" />
       <method v="2" />
     </configuration>
@@ -390,15 +517,17 @@
     </configuration>
     <list>
       <item itemvalue="Bash.gen-code.sh (2)" />
+      <item itemvalue="Bash.gen-code.sh" />
       <item itemvalue="Python.message_service" />
       <item itemvalue="Spring Boot.user-thrift" />
       <item itemvalue="Spring Boot.user-edge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.gen-code.sh (2)" />
+        <item itemvalue="Bash.gen-code.sh" />
         <item itemvalue="Spring Boot.user-edge" />
         <item itemvalue="Spring Boot.user-thrift" />
-        <item itemvalue="Bash.gen-code.sh (2)" />
         <item itemvalue="Python.message_service" />
       </list>
     </recent_temporary>
@@ -427,12 +556,17 @@
       <workItem from="1541223778540" duration="4178000" />
       <workItem from="1541423568229" duration="14585000" />
       <workItem from="1541678117926" duration="8374000" />
-      <workItem from="1541923119158" duration="4300000" />
+      <workItem from="1541923119158" duration="5666000" />
+      <workItem from="1541937108158" duration="3389000" />
+      <workItem from="1541942207004" duration="65000" />
+      <workItem from="1541943780489" duration="340000" />
+      <workItem from="1541944465824" duration="243000" />
+      <workItem from="1549971379900" duration="3822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62935000" />
+    <option name="totallyTimeSpent" value="72160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,9 +578,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.1802949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.21514745" />
       <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.27815014" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -456,7 +591,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.3101983" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.3248227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -488,6 +623,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/message-thrift-python-service" />
+      <path value="$PROJECT_DIR$/message-thrift-service-api" />
+      <path value="$PROJECT_DIR$/user-edge-service" />
+      <path value="$PROJECT_DIR$/user-thrift-service" />
+      <path value="$PROJECT_DIR$/user-thrift-service-api" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -500,68 +644,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/java/com/imooc/user/dao/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/message-thrift-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7600">
-          <caret line="525" column="48" selection-start-line="525" selection-start-column="17" selection-end-line="525" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="79" column="60" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/redis/RedisConfig.java" />
     <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/util/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/java/com/imooc/user/ServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/ServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -692,16 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message-thrift-service-api/message-thrift-service-api.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/message_service.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -713,13 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message-thrift-service-api/src/main/java/com/imooc/thrift/message/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -765,20 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.8.2/mongodb-driver-3.8.2.jar!/com/mongodb/client/MongoDatabase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -807,34 +862,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-mongo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/test-mongo/pom.xml" />
+    <entry file="file://C:/Program Files/MongoDB/Server/4.0/bin/mongod.cfg" />
+    <entry file="file://$PROJECT_DIR$/test-mongo/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/test-mongo/src/main/java/com/mooc/mongo/dao/userDao.java" />
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="19">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/MongoDB/Server/4.0/bin/mongod.cfg">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-mongo/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/user-edge-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/java/com/imooc/user/ServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="20" />
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-mongo/src/main/java/com/mooc/mongo/dao/userDao.java">
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com/imooc/user/ServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="209">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bewerkt6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-service-api/message-thrift-service-api.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-service-api/src/main/java/com/imooc/thrift/message/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/thrift/gen-code.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/thrift/message.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-service-api/thrift/message.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thriftfile/message.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -891,12 +1027,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>user-thrift-service-api</last-edited>
+          <last-edited>microservice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

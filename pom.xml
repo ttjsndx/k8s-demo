@@ -14,6 +14,5 @@
         <module>user-thrift-service-api</module>
         <module>user-thrift-service</module>
         <module>user-edge-service</module>
-        <module>test-mongo</module>
     </modules>
 </project>
